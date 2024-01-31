@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.pagina {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    background-color: aqua;
+    flex-basis: 100px;
+}
+
+.principal {
+    flex-grow: 1;
+    display: flex;
+}
+
+.menu {
+    background-color: aquamarine;
+    flex-basis: 150px;
+}
+
+.copro {
+    background-color: azure;
+    flex-grow: 1;
+}
